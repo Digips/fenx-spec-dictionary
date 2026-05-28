@@ -2,7 +2,7 @@
 
 > **Disclaimer:** This project is independent and is not affiliated with, endorsed by, or sponsored by Fenergo. It works only with publicly available API specifications and user-provided configuration metadata.
 
-A Python pipeline that wrangles Fen-X API specifications (OpenAPI 3.x / Swagger 2.x) into a structured dictionary of elements, exported as a multi-sheet Excel workbook to support Excel-based configuration management.
+A Python pipeline that wrangles Fen-X API specifications (OpenAPI 3.x / Swagger 2.x) into a structured dictionary of elements, exported as a multi-sheet Excel workbook in support of configuration management.
 
 ---
 

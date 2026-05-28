@@ -1,0 +1,101 @@
+schema_name,type,description,property_count,required_count
+AccessLayerDto,object,DTO representing associated access layers,2,0
+ActiveSetVersionResponseDto,object,Response DTO representing light requirement set version data,10,0
+ActiveSetVersionResponseDtoServiceResponse,object,Service response data,2,0
+ApproveAction,object,,3,0
+Approver,object,,4,0
+BasicRule,object,,2,0
+BasicRuleDto,object,Request DTO representing basic validation rule metadata,1,0
+BasicRuleDto2,object,Request DTO representing basic validation rule metadata,2,0
+BasicRuleDtoConditionalValidationRuleDto,object,,3,0
+BasicRuleDtoConditionalValueDto,object,,7,0
+BasicRuleDtoValidationRuleDto,object,,2,0
+CollectionMaximumCountRule,object,,4,0
+CollectionMaximumCountRuleDto,object,Request DTO representing collection maximum count validation rule metadata,3,0
+CollectionMaximumCountRuleDto2,object,Request DTO representing collection maximum count validation rule metadata,4,0
+CollectionMaximumCountRuleDtoValidationRuleDto,object,,2,0
+CollectionMinimumCountRule,object,,4,0
+CollectionMinimumCountRuleDto,object,Request DTO representing collection minimum count validation rule metadata,3,0
+CollectionMinimumCountRuleDto2,object,Request DTO representing collection minimum count validation rule metadata,4,0
+CollectionMinimumCountRuleDtoValidationRuleDto,object,,2,0
+ConditionDefinitionDto,object,Represents condition,9,0
+ConditionDto,object,Represents condition root,5,0
+ConditionalValueDto,object,,8,0
+DataFieldDto,object,Response DTO representing data field data,9,0
+DataGroupDto,object,Response DTO representing data group data,3,0
+DataGroupDtoIEnumerableServiceResponse,object,Service response data,2,0
+DataGroupFieldDto,object,Response DTO representing data group field data,19,0
+DataGroupFieldDtoServiceResponse,object,Service response data,2,0
+DataGroupIdentifierDto,object,,2,0
+DataGroupLiteDto,object,Response DTO representing data group data lite,3,0
+DataGroupLiteDtoIEnumerableServiceResponse,object,Service response data,2,0
+DataGroupVersionDto,object,Response DTO representing data group version data,19,0
+DataGroupVersionDtoListServiceResponse,object,Service response data,2,0
+DataGroupVersionDtoServiceResponse,object,Service response data,2,0
+DataGroupVersionLiteDto,object,Response DTO representing data group version lite data,18,0
+DataValidationRulesDto,object,Request DTO representing validation data metadata,20,0
+DateLimitRule,object,,4,0
+DateLimitRuleDto,object,Request DTO representing date limit rule metadata,3,0
+DateLimitRuleDto2,object,Request DTO representing date limit rule metadata,4,0
+DateLimitRuleDtoConditionalValidationRuleDto,object,,3,0
+DateLimitRuleDtoConditionalValueDto,object,,7,0
+DateTimePeriodFormulaSchemaDto,object,,4,0
+DateTimePeriodFormulaVariableDto,object,,5,0
+Decision,string,,0,0
+EmptyRuleDto,object,Request DTO representing rule with no parameters,0,0
+EmptyRuleDtoConditionalValidationRuleDto,object,,3,0
+EmptyRuleDtoConditionalValueDto,object,,7,0
+ExternalProviderRule,object,,3,0
+ExternalProviderRuleDto,object,Request DTO representing external provider rule metadata,1,0
+ExternalProviderRuleDto2,object,Request DTO representing external provider rule metadata,3,0
+ExternalProviderRuleDtoValidationRuleDto,object,,2,0
+FilterConditionDto,object,,2,0
+GetDataGroupsRequestDto,object,,1,0
+GetDataGroupsRequestDtoServiceRequest,object,Service request data,1,0
+GetValidationRulesRequestDto,object,Response DTO representing validation request data,3,2
+GetValidationRulesRequestDtoServiceRequest,object,Service request data,1,0
+NumberFormulaSchemaDto,object,,4,0
+NumberFormulaVariableDto,object,,3,0
+ObjectServiceResponse,object,Service response data,2,0
+OwnershipValidationDataDto,object,,6,0
+OwnershipValidationRuleDto,object,,3,0
+ProblemDetails,object,,5,0
+ReferenceDto,object,Request DTO representing reference metadata,3,0
+RegexRule,object,,4,0
+RegexRuleDto,object,Request DTO representing regex rule metadata,3,0
+RegexRuleDto2,object,Request DTO representing regex rule metadata,4,0
+RegexRuleDtoConditionalValidationRuleDto,object,,3,0
+RegexRuleDtoConditionalValueDto,object,,7,0
+RequirementDto,object,Request DTO representing requirement metadata,61,0
+RequirementDtoListServiceResponse,object,Service response data,2,0
+RequirementDtoServiceResponse,object,Service response data,2,0
+RequirementSetDto,object,Response DTO representing requirement set data,5,0
+RequirementSetDtoIEnumerableServiceResponse,object,Service response data,2,0
+RequirementSetJurisdictionDto,object,Response DTO representing requirement sets jurisdictions available,1,0
+RequirementSetJurisdictionDtoServiceResponse,object,Service response data,2,0
+RequirementSetVersionDto,object,Response DTO representing requirement set version data,18,0
+RequirementSetVersionDtoServiceResponse,object,Service response data,2,0
+RequirementsInScopeRequestDto,object,Response DTO representing filter parameters for in-scope query,13,0
+RequirementsInScopeRequestDtoServiceRequest,object,Service request data,1,0
+ServiceResponse,object,Service response data,2,0
+ServiceResponseMessage,object,The message associated to the service response,3,0
+Signee,object,,4,0
+SpecialCharactersRule,object,,3,0
+SpecialCharactersRuleDto,object,Request DTO representing special characters rule metadata,2,0
+SpecialCharactersRuleDto2,object,Request DTO representing special characters rule metadata,3,0
+SpecialCharactersRuleDtoValidationRuleDto,object,,2,0
+StringListServiceResponse,object,Service response data,2,0
+StringServiceResponse,object,Service response data,2,0
+ValidationData,object,,17,0
+ValidationDataDto,object,Request DTO representing validation data metadata,17,0
+ValidationRule,object,,12,0
+ValidationRuleDto,object,Request DTO representing validation rule metadata,12,0
+ValidationRuleListServiceResponse,object,Service response data,2,0
+ValueField,object,,2,0
+ValueLimitRule,object,,4,0
+ValueLimitRuleDto,object,Request DTO representing value limit rule metadata,3,0
+ValueLimitRuleDto2,object,Request DTO representing value limit rule metadata,4,0
+ValueLimitRuleDtoConditionalValidationRuleDto,object,,3,0
+ValueLimitRuleDtoConditionalValueDto,object,,7,0
+ValueLimitRuleDtoValidationRuleDto,object,,2,0
+VersionStatus,string,,0,0

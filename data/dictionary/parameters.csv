@@ -1,0 +1,38 @@
+path,method,operation_id,name,in,required,type,description
+/api/data-group,get,GetAllDataGroups,onlyPublishedAndArchived,query,False,boolean,Flag that indicate that we will return only versions with status Published and Archived
+/api/data-group,get,GetAllDataGroups,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/data-group/latest,get,GetLatestDataGroups,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/data-group/lite,get,GetDataGroupsLite,onlyPublishedAndArchived,query,False,boolean,Flag that indicate that we will return only versions with status Published and Archived
+/api/data-group/lite,get,GetDataGroupsLite,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/data-group/{dataGroupId},get,GetDataGroupById,dataGroupId,path,True,string,Data group id
+/api/data-group/{dataGroupId},get,GetDataGroupById,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/data-group/{dataGroupId}/version/{versionNumber},get,GetDataGroupVersionById,dataGroupId,path,True,string,Data group id
+/api/data-group/{dataGroupId}/version/{versionNumber},get,GetDataGroupVersionById,versionNumber,path,True,integer,Data group version number
+/api/data-group/{dataGroupId}/version/{versionNumber},get,GetDataGroupVersionById,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/data-group/{dataGroupId}/version/{versionNumber}/field/{id},get,GetDataGroupFieldById,dataGroupId,path,True,string,Data group id
+/api/data-group/{dataGroupId}/version/{versionNumber}/field/{id},get,GetDataGroupFieldById,versionNumber,path,True,integer,Data group version number
+/api/data-group/{dataGroupId}/version/{versionNumber}/field/{id},get,GetDataGroupFieldById,id,path,True,string,Data group field id
+/api/data-group/{dataGroupId}/version/{versionNumber}/field/{id},get,GetDataGroupFieldById,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/data-group/versions,post,GetDataGroups,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/requirement-set,get,GetAllRequirementSets,includeRequirements,query,False,boolean,Flag to include requirements in the response.
+/api/requirement-set,get,GetAllRequirementSets,versionsLimit,query,False,integer,"Optional limit on versions returned per jurisdiction. When omitted, all versions are returned."
+/api/requirement-set,get,GetAllRequirementSets,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/requirement-set/{setId},get,GetRequirementSetById,setId,path,True,string,Requirement set id
+/api/requirement-set/{setId},get,GetRequirementSetById,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/requirement-set/{setId}/version/{versionNumber},get,GetRequirementSetVersionById,setId,path,True,string,Requirement set id
+/api/requirement-set/{setId}/version/{versionNumber},get,GetRequirementSetVersionById,versionNumber,path,True,integer,Requirement set version number
+/api/requirement-set/{setId}/version/{versionNumber},get,GetRequirementSetVersionById,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/requirement-set/{setId}/version/{versionNumber}/field/{id},get,GetRequirementById,setId,path,True,string,Requirement set id
+/api/requirement-set/{setId}/version/{versionNumber}/field/{id},get,GetRequirementById,versionNumber,path,True,integer,Requirement set version number
+/api/requirement-set/{setId}/version/{versionNumber}/field/{id},get,GetRequirementById,id,path,True,string,Requirement id
+/api/requirement-set/{setId}/version/{versionNumber}/field/{id},get,GetRequirementById,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/requirement-set/jurisdictions,get,GetJurisdictions,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/requirements-in-scope,post,GetRequirementsInScope,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/requirements-in-scope/jurisdiction/{jurisdiction},get,GetActiveSetVersionByJurisdiction,jurisdiction,path,True,string,The Jurisdiction
+/api/requirements-in-scope/jurisdiction/{jurisdiction},get,GetActiveSetVersionByJurisdiction,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/tag/requirements,get,GetRequirementsByTags,tags,query,False,array,List of tags
+/api/tag/requirements,get,GetRequirementsByTags,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/tag,get,GetTagsByTenant,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/tag/requirement-set/{setId},get,GetTagsByRequirementSetId,setId,path,True,string,Requirement Set Id
+/api/tag/requirement-set/{setId},get,GetTagsByRequirementSetId,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization
+/api/validation-rule/validation-rules,post,GetValidationRules,X-TENANT-ID,header,True,string,The UiD of the tenant representing organization

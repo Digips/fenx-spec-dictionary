@@ -1,0 +1,110 @@
+source_id,api_name,api_mode,api_version,source_url,schema_name,type,description,property_count,required_count
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,AccessLayerDto,object,DTO representing associated access layers,2,2
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ApproveAction,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ApproveActionServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,Approver,object,,4,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,BasicRuleDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,BasicRuleDto2,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,BasicRuleDtoConditionalValidationRuleDto,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,BasicRuleDtoConditionalValueDto,object,,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,BasicRuleDtoValidationRuleDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CloneProductRequirementSetVersionDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CloneProductRequirementSetVersionDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CloneProductRequirementSetVersionResponse,object,Request DTO representing clone product requirement set data,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CloneProductRequirementSetVersionResponseServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CloneScopingRuleSetVersionDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CloneScopingRuleSetVersionDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CloneScopingRuleSetVersionResponse,object,Request DTO representing clone scoping rule set data,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CloneScopingRuleSetVersionResponseServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CollectionMaximumCountRuleDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CollectionMaximumCountRuleDto2,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CollectionMaximumCountRuleDtoValidationRuleDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CollectionMinimumCountRuleDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CollectionMinimumCountRuleDto2,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CollectionMinimumCountRuleDtoValidationRuleDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CommonRequirementSetDto,object,Request DTO representing requirement set data,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ConditionDefinitionDto,object,,9,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ConditionDto,object,,5,3
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ConditionalValueDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ConditionalValueDto`1,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CreateProductRequirementSetResponse,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CreateProductRequirementSetResponseServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CreateProductRequirementSetVersionFromSetIdResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CreateProductRequirementSetVersionFromSetIdResponseServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CreateScopingRuleSetResponse,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CreateScopingRuleSetResponseServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CreateScopingRuleSetVersionFromSetIdResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,CreateScopingRuleSetVersionFromSetIdResponseServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DataFieldDto,object,Request DTO representing data field metadata,8,2
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DataValidationRulesDto,object,Request DTO representing validation data metadata,21,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRangeDto,object,,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRuleDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRuleDto2,object,,6,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRuleDto3,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRuleDto4,object,,5,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRuleDtoConditionalValidationRuleDto,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRuleDtoConditionalValidationRuleDto2,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRuleDtoConditionalValueDto,object,,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateLimitRuleDtoConditionalValueDto2,object,,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateTimePeriodFormulaSchemaDto,object,,4,2
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,DateTimePeriodFormulaVariableDto,object,,5,1
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,Decision,string,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,EmptyRuleDto,object,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,EmptyRuleDtoConditionalValidationRuleDto,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,EmptyRuleDtoConditionalValueDto,object,,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ExternalProviderRuleDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ExternalProviderRuleDto2,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ExternalProviderRuleDtoValidationRuleDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,FilterConditionDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,FormulaSchemaDto,object,,4,2
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,FormulaVariableDto,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ItemCreatedDto,object,Response DTO representing created Item Instance,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ItemCreatedDtoServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ObjectServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,OwnershipValidationDataDto,object,,6,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,OwnershipValidationRuleDto,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ProductRequirementDto,object,Request DTO representing product requirement metadata,47,4
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ProductRequirementDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ProductRequirementSetDto,,Request DTO representing product requirement set data,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ProductRequirementSetDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ProductRequirementSetDtoServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ProductRequirementSetVersionSignResponse,object,Sign product requirement set response contains the new version status,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ProductRequirementSetVersionSignResponseServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ReferenceDto,object,Request DTO representing reference metadata,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,RegexRuleDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,RegexRuleDto2,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,RegexRuleDtoConditionalValidationRuleDto,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,RegexRuleDtoConditionalValueDto,object,,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ScopingRuleSetDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ScopingRuleSetDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ScopingRuleSetVersionDto,object,Request DTO representing product scoping rule set data,11,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ScopingRuleSetVersionDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ScopingRuleSetVersionDtoServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ScopingRuleSetVersionSignResponse,object,Sign scoping rule set response contains the new version status,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ScopingRuleSetVersionSignResponseServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ScopingRuleType,string,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ServiceResponseMessage,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,Signee,object,,4,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,SpecialCharactersRuleDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,SpecialCharactersRuleDto2,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,SpecialCharactersRuleDtoValidationRuleDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,StringConditionalValueDto,object,,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,StringServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,T`1,object,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,UpdateProductRequirementDto,,Request DTO representing requirement metadata,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,UpdateProductRequirementDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,UpdateProductRequirementDtoServiceResponse,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,UpdateProductRequirementSetVersionDto,,Request DTO representing set of properties which define a new version of product requirement set,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,UpdateProductRequirementSetVersionDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,UpdateScopingRuleSetVersionDto,,Request DTO representing set of properties which define a new version of scoping rule set,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,UpdateScopingRuleSetVersionDtoServiceRequest,object,,1,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ValidationDataDto,object,Request DTO representing validation data metadata,18,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ValidationRuleDto,object,Request DTO representing validation rule metadata,9,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ValueField,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ValueLimitRuleDto,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ValueLimitRuleDto2,,,0,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ValueLimitRuleDtoConditionalValidationRuleDto,object,,3,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ValueLimitRuleDtoConditionalValueDto,object,,7,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,ValueLimitRuleDtoValidationRuleDto,object,,2,0
+productpolicycommand_v1,productpolicy,command,1.0,https://api.fenergox.com/productpolicycommand/swagger/1.0/swagger.json,VersionStatus,string,,0,0

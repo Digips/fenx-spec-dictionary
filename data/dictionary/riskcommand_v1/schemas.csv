@@ -1,0 +1,60 @@
+source_id,api_name,api_mode,api_version,source_url,schema_name,type,description,property_count,required_count
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ApproveAction,object,,3,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ApproveActionServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,Approver,object,,4,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CloneScopingRuleSetVersionDto,object,Request DTO representing clone scoping rule set data,1,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CloneScopingRuleSetVersionDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CloneScopingRuleSetVersionResponseDto,object,Cloned scoping rule set response data,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CloneScopingRuleSetVersionResponseDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ConditionDefinitionDto,object,,9,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ConditionDto,object,,5,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CreateScopingRuleSetDto,object,DTO representing scoping rule set data needed for creation,3,2
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CreateScopingRuleSetDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CreateScopingRuleSetResponseDto,object,DTO representing scoping rule set data,8,3
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CreateScopingRuleSetResponseDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CreateScopingRuleSetVersionDto,object,DTO representing scoping rule set data needed for version creation,2,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,CreateScopingRuleSetVersionDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,Decision,string,,0,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ModelVersionSignResponse,object,"Contains the new version Status, after a version sign operation",3,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ModelVersionSignResponseServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ObjectServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ProblemDetails,object,,5,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskCalculatorOptionDto,object,A combination of Ids that make up a Risk Calculation Option,3,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskCalculatorOptionModelDto,object,A Risk Calculator Option for given Scope parameters,5,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskCalculatorOptionModelDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskCalculatorOptionModelDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskConfigurationCollectionDto,object,A risk configuration collection of Items and Thresholds,7,2
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskConfigurationCollectionDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskConfigurationCollectionDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskConfigurationItemDto,object,A risk configuration collection item,4,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskConfigurationModelDto,object,RiskConfiguration model version wrapper,2,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskConfigurationModelDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskConfigurationModelDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskConfigurationModelVersionDto,object,A RiskConfiguration model Version,8,3
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskFactorDto,object,A risk model factor,4,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskFactorGroupDto,object,A group of risk model factors,6,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskFactorGroupThresholdDto,object,A range of values that define a threshold,5,3
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskModelDto,object,RiskModel version wrapper,2,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskModelDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskModelDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,RiskModelVersionDto,object,A RiskModel version,9,3
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ServiceResponseMessage,object,,3,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,SignScopingRuleSetVersionResponseDto,object,Sign scoping rule set response contains the new version status,3,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,SignScopingRuleSetVersionResponseDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,Signee,object,,4,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,SigneeDto,object,Defines a version Signee,4,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,StringServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ThresholdDto,object,A range of values that define a threshold,5,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ThresholdModelDto,object,ThresholdModel version wrapper,2,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ThresholdModelDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ThresholdModelDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ThresholdModelVersionDto,object,A ThresholdModel version,9,3
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,UpdateScopingRuleSetResponseDto,object,Response DTO representing updated scoping rule set,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,UpdateScopingRuleSetResponseDtoServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,UpdateScopingRuleSetVersionDto,object,Request DTO representing set of properties which define a new version of scoping rule set,3,1
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,UpdateScopingRuleSetVersionDtoServiceRequest,object,,1,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ValidationErrorModel,object,,4,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ValidationErrorModelListServiceResponse,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,ValueField,object,,2,0
+riskcommand_v1,risk,command,1.0,https://api.fenergox.com/riskcommand/swagger/1.0/swagger.json,VersionStatus,string,,0,0

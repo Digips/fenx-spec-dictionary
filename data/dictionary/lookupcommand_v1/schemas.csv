@@ -1,0 +1,40 @@
+source_id,api_name,api_mode,api_version,source_url,schema_name,type,description,property_count,required_count
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,ApproveAction,object,,3,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,ApproveActionServiceRequest,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,Approver,object,,4,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,BulkDeleteLookupDto,object,,1,1
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,CreateLinkVersionDto,object,,8,6
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,CreateLinkVersionDtoServiceRequest,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,CreateLookupItemsDto,object,Lookup representation,12,2
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,CreateLookupItemsDtoServiceRequest,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,Decision,string,,0,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LinkLookupPropertyDto,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LinkVersionSignResponse,object,,3,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LinkVersionSignResponseServiceResponse,object,,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupDto,object,Lookup representation,13,2
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupDtoServiceRequest,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupDtoServiceResponse,object,,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupItemDto,object,Defines column with metadata for lookup values,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupLinkVersionDto,object,,13,2
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupLinkVersionDtoServiceRequest,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupLinkVersionDtoServiceResponse,object,,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupVersionSignResponse,object,"Contains the new version Status, after a version sign operation",3,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,LookupVersionSignResponseServiceResponse,object,,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,MetadataColumnDto,object,Defines column with metadata for lookup values,3,3
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,MetadataColumnValueDto,object,Defines value of lookup value's column entry,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,ObjectServiceResponse,object,,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,ProblemDetails,object,,5,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,ServiceResponse,object,,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,ServiceResponseMessage,object,,3,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,Signee,object,,4,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,StringServiceResponse,object,,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,UpdateLinkVersionDto,object,Set of properties which define new version of Link Lookup,11,3
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,UpdateLinkVersionDtoServiceRequest,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,UpdateLookupDto,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,UpdateLookupVersionDto,object,Set of properties which define new version of Lookup,10,3
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,UpdateLookupVersionDtoServiceRequest,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,UpdateLookupVersionItemsDto,object,Set of properties which define new version of Lookup,9,3
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,UpdateLookupVersionItemsDtoServiceRequest,object,,1,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,ValidationErrorModel,object,,4,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,ValidationErrorModelListServiceResponse,object,,2,0
+lookupcommand_v1,lookup,command,1.0,https://api.fenergox.com/lookupcommand/swagger/1.0/swagger.json,VersionStatus,string,,0,0

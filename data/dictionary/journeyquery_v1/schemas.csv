@@ -1,0 +1,178 @@
+source_id,api_name,api_mode,api_version,source_url,schema_name,type,description,property_count,required_count
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,AccessLayerDto,object,Response DTO representing associated access layers,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,AddPartiesToRequestTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,AgencyEtlTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,AgencyRequestDetailsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,AgentRequestJourneyCheckpointTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,AlertAssessmentTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ApplicationTypeDto,string,The types of application,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ApproveAction,object,,3,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,Approver,object,,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,AutomatedCreditAssessmentTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,BankAccountsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,BlockingTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,BranchableTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,BusinessProcessMessageDto,object,Response DTO representing business process message,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,CancelInflightJourneysTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ChannelTypeDto,string,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,CombinedPolicyTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,Condition,object,,5,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ConditionDefinition,object,,10,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ConditionDefinitionDto,object,Represents condition,9,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ConditionDto,object,Represents condition root,5,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ConditionalValueDto,object,,8,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ConflictResolutionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,CreditAssessmentTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,CreditScreeningTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,DataDeletionInformationTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,DataReviewTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,Decision,string,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,DeferredDocRequirementsReviewTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,DocumentAssignmentTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,DocumentDataExtractionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,DocumentDataExtractionV2TaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,DocumentTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,DocumentsV2TaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,EntityDataConditionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,EntityGroupManagementTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,EntityJourneyInstanceViewModelDto,object,"Response DTO representing journey instance data for a specific entity, without Stages object",26,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,EntityJourneyInstanceViewModelDtoIEnumerableServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,EntityResolutionSearchQueryFieldDto,object,,1,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,EvaluateReviewDatesTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ExpectedActivityTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ExternalDataAggregationTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ExternalDataConfigurationDto,object,,1,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ExternalDataConfigurationsDto,object,,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ExternalDataDocsCollectionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ExternalDataProviderConfigurationDto,object,,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ExternalDataTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ExternalDataV2TaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,FinalIsdaAmendSearchTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,FinancialAnalysisImportTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,FinancialAnalysisTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,FinancialCrimeReportTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,GetJourneyConfigurationResponseDto,object,Request DTO representing current related party access layers inheritance configuration data,7,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,GetJourneyConfigurationResponseDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,GetJourneySlaConfigurationResponseDto,object,,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,GetJourneySlaConfigurationResponseDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,GroupTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,HierarchyCaptureTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,IfThenConditionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,IndividualIdvLivenessTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,IndividualIdvReviewTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,IndividualIdvTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,IntegrationsDataPublishTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,InvestmentAccountsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,IsdaAmendOngoingUpdatesTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,IsdaAmendSearchTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyInstanceDto,object,Response DTO representing all journey instance data,42,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyInstanceDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyInstanceLightDto,object,Response DTO representing journey instance data without Stages object,24,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyInstanceLightDtoIEnumerableServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyInstanceMilestoneDto,object,DTO representing Journey Milestone,6,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyInstanceProcessDto,object,Journey Instance Process metadata,15,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyInstanceServiceLevelAgreementDto,object,"Response DTO representing Service Level Agreement of a Journey/Stage/Task, omits Conditions property.",9,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyInstanceStageDto,object,Journey Instance Stage metadata,25,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyLaunchControlsDto,object,Response DTO representing journey launch controls data,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyLaunchControlsDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyLaunchControlsListDto,object,Response DTO representing list of journey launch controls data,1,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyLaunchControlsListDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyLifecycleStatus,object,Single Journey Instance overview,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyMetadataDto,object,DTO representing journey metadata,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyOwnerDto,object,,3,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyScheduleDateDto,object,Response DTO representing journey Schedule date data,7,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyScheduleDateDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyScheduleDto,object,Response DTO representing journey Schedule data,3,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyScheduleDtoIEnumerableServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyScheduleVersionDto,object,Response DTO representing journey Schedule version data,15,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyScheduleVersionDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaExportDto,object,,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaExportDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaLiteDto,object,,3,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaLiteDtoIEnumerableServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaLiteVersionDto,object,,16,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaMilestoneDto,object,DTO representing Journey Milestone,5,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaProcessDto,object,Journey Schema Process metadata,8,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaStageDto,object,Journey Schema Stage metadata,13,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaVersionDto,object,Response DTO representing journey schema version data,22,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneySchemaVersionDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyStatsDto,object,Represents the progress of journey instance or stage,3,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyTaskDto,object,Journey Task metadata,58,1
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,JourneyTaskDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LaunchJourneyBusinessProcessDto,object,Response DTO representing journey launch business process,6,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LaunchJourneyBusinessProcessDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LaunchJourneyBusinessProcessItemDto,object,Response DTO representing journey launch business process item,7,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LaunchJourneyBusinessProcessPayloadDto,object,Response DTO representing journey launch business process payload,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LifecycleStatus,string,Lifecycle status enumeration,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LifecycleStatusSummary,object,Value object representing summary of journey instances for given entity grouped by journey type,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LifecycleStatusSummaryFactor,object,Single Journey Type overview,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LifecycleStatusSummaryServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LifecycleSummaryFactorStatus,string,The summary status of journey instances of given type,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LinkedJourneyDto,object,,10,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LinkedJourneysRequestDto,object,,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LinkedJourneysRequestDtoServiceRequest,object,Service request data,1,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LinkedJourneysResponseDto,object,,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,LinkedJourneysResponseDtoServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ManageCollateralTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ManageDealsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ManageGroupMembershipTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ManagedRelationshipDetailsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ManualCreditScreeningTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ManualGroupUpdatesTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ManualTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ObjectServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ObjectServiceResult,object,,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,OngoingMonitoringUnsubscribeTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,OriginSource,string,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,OutreachDataReviewTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,OutreachRelatedPartiesReviewTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,PageOptions,object,Options for setting up the results page,3,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ParentDataSyncTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,PermissionDto,object,"A single permission outcome for the current user, plus a human-readable reason that the UI surfaces as a tooltip when the action is not permitted.",2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,PolicyTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,PortalQuickLinkTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ProblemDetails,object,,5,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ProductJourneyLaunchpadCheckpointTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ProductTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ProposedChangesTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,PublishToEntityTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,RelatedPartyDataAndDocumentsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,RelatedPartyJourneyCheckpointTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ReviewAndApprovalTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ReviewOffboardedProductsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ReviewSignedDocumentsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,RiskAssessmentConditionPolicyTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,RiskAssessmentConditionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,SchemaServiceLevelAgreementDto,object,Response DTO representing Service Level Agreement of a Journey/Stage/Task,3,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningEntitySelectionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningMatchResolutionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningMatchResolutionTaskOgsDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningMaterialityAssessmentConditionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningMaterialityAssessmentConditionTaskOgsDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningMaterialityAssessmentTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningMaterialityAssessmentTaskOgsDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningResolutionAndClientSelectionTaskOgsDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ScreeningResolutionAndMaterialityAssessmentDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,SealedTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ServiceLevelAgreementDto,object,Response DTO representing Service Level Agreement of a Journey/Stage/Task,10,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ServiceLevelAgreementLightDto,object,Request DTO representing Service Level Agreement of a Journey/Stage/Task,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ServiceLevelAgreementLightDtoConditionalValueDto,object,,7,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ServiceResponseMessage,object,The message associated to the service response,3,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ServiceTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,Signee,object,Defines a version Signee,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,SignificanceEngineResultsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,SortOrder,integer,Sort Order (Ascending or Descending),0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,StringServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,TaskConditionalGatewayDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,TaskMessageDto,object,,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,TeamAssignmentDto,object,DTO representing task's team assignment metadata,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,TeamAssignmentDtoConditionalValueDto,object,,7,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,TransactionMonitoringTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,TransactionScreeningMatchResolutionTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,UnsubscribeOgsTaskDto,,,0,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,UserTaskPermissionsDto,object,The current user's permissions for a single task within a journey instance. Entries are only emitted for tasks where at least one permission is denied.,1,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ValidationErrorModel,object,Represents the details of validation error,4,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ValidationErrorModelListServiceResponse,object,Service response data,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,ValueField,object,,2,0
+journeyquery_v1,journey,query,1.0,https://api.fenergox.com/journeyquery/swagger/1.0/swagger.json,VersionStatus,string,,0,0

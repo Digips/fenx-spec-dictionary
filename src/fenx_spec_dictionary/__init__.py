@@ -10,6 +10,7 @@ from .extractor import (
 from .exporter import write_csv
 from .loader import load_json
 from .refs import dereference, resolve_ref
+from .spec_catalog import SPEC_SOURCES, SpecSource, get_spec_sources
 
 __all__ = [
     "load_json",
@@ -21,4 +22,7 @@ __all__ = [
     "extract_schemas",
     "extract_schema_properties",
     "write_csv",
+    "SpecSource",
+    "SPEC_SOURCES",
+    "get_spec_sources",
 ]

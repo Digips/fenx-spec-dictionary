@@ -1,0 +1,90 @@
+source_id,api_name,api_mode,api_version,source_url,schema_name,type,description,property_count,required_count
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,AggregateRiskAssessment,object,,11,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,AggregateRiskAssessmentError,object,,8,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,AggregateRiskAssessmentErrorViewModelDto,object,Represents an aggregate risk assessment error,8,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,AggregateRiskAssessmentViewModelDto,object,Represents an aggregate risk assessment,11,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,AggregateTaskResultLink,object,,3,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,AggregateTaskResultLinkViewModelDto,object,Represents a link to a reused aggregate task result,3,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ApproveAction,object,,3,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,Approver,object,,4,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ConditionDefinitionDto,object,,9,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ConditionDto,object,,5,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,Decision,string,,0,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,EntityRiskAssessment,object,,10,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,EntityRiskAssessmentServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,EntityRiskAssessmentViewModelDto,object,Represents entity risk assessment data,10,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,GetRiskRelatedPartiesResultRequestDto,object,,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,GetRiskRelatedPartiesResultRequestDtoServiceRequest,object,,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,InputValueRiskAssessment,object,,6,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,InputValueRiskAssessmentViewModelDto,object,Represents an input value risk assessment,6,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ObjectServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,OptionsInScope,object,,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,OptionsInScopeServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,OverrideScoresDto,object,Risk factor override data,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ProblemDetails,object,,5,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskAssessmentDto,object,Risk assessment generation input data,9,3
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskAssessmentDtoServiceRequest,object,,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskAssessmentError,object,,7,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskAssessmentErrorViewModelDto,object,Represents a risk assessment error,7,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskAssessmentsRequest,object,Risk assessments request,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskAssessmentsRequestServiceRequest,object,,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskCalculatorOption,object,,3,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskCalculatorOptionModel,object,,8,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskCalculatorOptionModelIEnumerableServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskCalculatorOptionModelServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationCollection,object,,8,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationCollectionServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationExportDto,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationExportDtoServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationItem,object,,4,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationItemServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationModelDto,object,RiskConfiguration model with all version metadata,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationModelDtoIEnumerableServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationModelVersionDto,object,RiskConfiguration model version data,13,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskConfigurationModelVersionDtoServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskExportRequestDto,object,Risk assessment generation input data,6,3
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskExportRequestDtoServiceRequest,object,,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactor,object,,8,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactorGroup,object,,6,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactorGroupRiskAssessment,object,,10,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactorGroupRiskAssessmentViewModelDto,object,Represents a risk factor group assessment,10,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactorInputValue,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactorRiskAssessment,object,,10,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactorRiskAssessmentViewModelDto,object,Represents an individual risk factor assessment,10,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactorSelectedAlgorithmDto,object,"The algorithm to use, for risk level calculation,  when a risk factor has multiple input values",2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskFactorValueDto,object,Risk factor value,3,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskModelDto,object,RiskModel with all version metadata,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskModelDtoIEnumerableServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskModelVersionDto,object,RiskModel version data,13,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskModelVersionDtoServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskTaskResultModel,object,,13,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskTaskResultModelIEnumerableServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskTaskResultModelItemDto,object,Represents the overview of a risk task assessment,4,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskTaskResultModelListDto,object,Container for multiple risk assessment overviews for related parties,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskTaskResultModelListDtoServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskTaskResultModelServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskTaskResultModelViewModelDto,object,Represents the result of a risk task assessment,7,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,RiskTaskResultModelViewModelDtoServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ScopingQueryDto,object,A risk calculator option query by scope parameters,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ScopingQueryDtoServiceRequest,object,,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ScopingQueryParametersDto,object,The risk calculator option scope parameters to query by,1,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ScopingRuleSetLiteDto,object,Represents a lite version of a Scoping Rule Set,4,1
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ScopingRuleSetLiteDtoIEnumerableServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ScopingRuleSetLiteVersionDto,object,Represents a lite version of a Scoping Rule Set version,11,1
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ScopingRuleSetVersionDto,object,Response DTO representing scoping rule set version data,13,2
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ScopingRuleSetVersionDtoServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ServiceResponseMessage,object,,3,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,Signee,object,,4,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,SigneeDto,object,Defines a version Signee,4,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,StringServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,Threshold,object,,5,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ThresholdModelDto,object,ThresholdModel with all version metadata,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ThresholdModelDtoIEnumerableServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ThresholdModelVersionDto,object,ThresholdModel version data,13,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ThresholdModelVersionDtoServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ThresholdViewModelDto,object,Represents a threshold used in risk assessment,5,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ValidationErrorModel,object,,4,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ValidationErrorModelListServiceResponse,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,ValueField,object,,2,0
+riskquery_v1,risk,query,1.0,https://api.fenergox.com/riskquery/swagger/1.0/swagger.json,VersionStatus,string,,0,0

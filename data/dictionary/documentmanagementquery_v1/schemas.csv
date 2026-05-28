@@ -1,0 +1,179 @@
+source_id,api_name,api_mode,api_version,source_url,schema_name,type,description,property_count,required_count
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AcceptableDocumentDto,object,Response DTO representing Acceptable Document data,7,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AcceptableDocumentDtoIEnumerableServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AcceptableDocumentDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AcceptableDocumentSetDto,object,Response DTO representing Acceptable Document Set data,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AcceptableDocumentSetDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AcceptableDocumentSetVersionDto,object,Response DTO representing Acceptable Document Set Version data,12,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AcceptableDocumentSetVersionDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AccessLayerDto,object,DTO representing access layers attached,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AccountRelatedFundDto,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AccountRelatedFundsDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AlertAssessmentDataSource,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AlertAssessmentDto,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AlertDataSource,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ApproveAction,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,Approver,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AssignmentDto,object,Response DTO representing Assignment data,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AssociationSnapshotDto,object,Association snapshot,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AutoCreditAssessmentDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AutoCreditAssessmentDto,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AutoCreditScreeningDataSource,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,AutoCreditScreeningDto,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,BasicRuleDto,object,Request DTO representing basic validation rule metadata,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ChangedFieldDto,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ChangedFieldsDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CollateralDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CollateralDto,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CollectionItemDto,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CollectionPropertyDto,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CompletedAssignmentDto,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ConfigurationDto,object,Class which representing configuration providers,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ConfigurationDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ConversationChatMessage,object,,2,2
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ConversationRole,integer,,0,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CreditAssessmentDto,object,,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CurrentDataGroupItemDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CurrentFieldDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CurrentJourneysDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CurrentProductDataSource,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CurrentProductMetadataDataSource,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CurrentUserDataSource,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,CustomPropertyDto,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DataSourcesDto,object,,33,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DateLimitRuleDto,object,Request DTO representing date limit rule metadata,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,Decision,string,,0,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocuSignGenericProviderDto,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentAssignmentDto,object,"Dto representing model of document assignation. One document assignation per entity, journey and task.",8,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentAssignmentDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentAssignmentSetDto,object,Dto representing all document assignations for a journey.,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentAssignmentSetDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentContent,object,,3,3
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentData,object,,1,1
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentEntityType,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentInsightsConnectorRequestDto,object,Request to get document insights using natural language,3,2
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentInsightsConnectorRequestDtoServiceRequest,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentInsightsContext,object,Defines the context for insights (Journey or Entity scope),2,2
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentInsightsContextLevel,string,Defines the context level for document insights,0,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentInsightsRequestDto,object,Request to get document insights using natural language,4,3
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentInsightsRequestDtoServiceRequest,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentInsightsScopeDto,object,Defines the scope of the document insights. At least one context (DocumentContext or DocumentRequirementContext) must be provided. Both contexts can be provided to get insights for documents and requirements together.,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentModelDto,object,Document metadata,27,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentModelDtoIEnumerableServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentModelDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentModelLiteDto,object,Represents a simplified version of document model data transfer object,24,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementHistoryDto,object,Document Requirement History,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementMetadataDto,object,Response DTO representing Document Requirement Metadata data,10,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementMetadataDtoIEnumerableServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementMetadataDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementMetadataSetDto,object,Response DTO representing Document Requirement Metadata Set data,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementMetadataSetDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementMetadataSetVersionDto,object,Response DTO representing Document Requirement Metadata Set Version data,12,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementMetadataSetVersionDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementModelDto,object,Document Requirement data,13,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementModelDtoIEnumerableServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementModelDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementModelLiteDto,object,Document Requirement data,11,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentRequirementProperty,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,DocumentSnapshotDto,object,Dto representing document information at the time of document assignment creation.,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureDocumentRequirementModelDto,object,Document Requirement data for ESignature,17,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureDocumentRequirementModelDtoIEnumerableServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureDocumentRequirementModelDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureLookup,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureLookupDetails,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureLookupValue,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureLookupValueDetails,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureTypeConfigurationDto,object,DTO representing signature type configuration,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureTypeConfigurationDtoListServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ESignatureTypeConfigurationDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,EntityAssociationDataSource,object,,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,EntityDataMetadataDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,EntitySignatureTypeDto,object,DTO representing eSignature task signature type configuration,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,EntitySignatureTypeDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,EntitySnapshotDto,object,Entity snapshot,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,EventIngressDataSource,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ExternalDataAdapterDataSource,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,GetDocumentConfigurationResponseDto,object,Request DTO representing current status of document configuration for waive comment,6,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,GetDocumentConfigurationResponseDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,GetRelatedDocumentDataSourceResponse,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,GetRelatedDocumentDataSourceResponseServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ImageContent,object,,2,2
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ImageData,object,,1,1
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,InvestmentAccountFundDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,JourneyLevelDataDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,LinkedDocumentCountDto,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,MainEntityDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ManualCreditAssessmentV2DataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ManualCreditScreeningDataSource,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ManualCreditScreeningDto,object,,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,MessageContent,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ObjectServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedAcceptableDocumentResponseDto,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedAcceptableDocumentResponseDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedDocumentRequirementLiteResponseDto,object,Represents a paginated response containing lightweight document requirement models for an entity,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedDocumentRequirementLiteResponseDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedDocumentRequirementsRequestDto,object,Represents options for setting up the paginated results for document requirements,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedDocumentRequirementsRequestDtoServiceRequest,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsLiteResponseDto,object,Represents a paginated response containing simplified document models for an entity,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsLiteResponseDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsRequestDto,object,Represents options for setting up the results page,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsRequestDtoServiceRequest,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsResponseDto,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsResponseDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsStatusRequestDto,object,Represents options for setting up the results page,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsStatusRequestDtoServiceRequest,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsWithFilterRequestDto,object,Request DTO for paginated documents by entity ID with optional status filter. Uses DynamoDB cursor-based pagination via PaginationToken.,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsWithFilterRequestDtoServiceRequest,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsWithTokenResponseDto,object,Response DTO for cursor-based paginated document results,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PagedEntityDocumentsWithTokenResponseDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ProblemDetails,object,,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PropertiesDto,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,Property,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PropertyDto,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PropertyMetadata,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,PropertyType,string,,0,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ProviderConfigurationDto,object,DTO representing provider configuration,7,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ProviderConfigurationDtoServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RecipientIdentityInputOption,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RecipientIdentityPhoneNumber,object,,7,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RecipientIdentityVerification,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RegexRuleDto,object,Request DTO representing regex rule metadata,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedAssetDto,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedAssetsDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedAssociationDto,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedAssociationsDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedClientDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedDealDto,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedDealsDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedDocumentDto,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedDocumentVersionedDto,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedDocumentsDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedInvestmentManagerDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedPartiesDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedPartyDto,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedProductDto,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedProductsDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,RelatedUnderlyingPrincipalOwnerDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ReviewAndApprovalDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ReviewAndApprovalDto,object,,5,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SchemaEntry,object,,8,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ServiceResponseMessage,object,,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SignatureProviderRefreshResponse,object,,1,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SignatureProviderRefreshResponseServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,Signee,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SignerDto,object,,10,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SignificanceEngineDataSource,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SignificanceEngineDto,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SinglePropertyDto,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SnapshotDto,object,"Snapshots of entities, documents and associations at the time when assignments are created. This data will be presented on completed task.",3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,SpecialCharactersRuleDto,object,Request DTO representing special characters rule metadata,3,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,StringIEnumerableServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,StringListServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,StringServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ValidationDataDto,object,Request DTO representing validation data metadata,13,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ValidationErrorModel,object,,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ValidationErrorModelListServiceResponse,object,,2,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ValueLimitRuleDto,object,Request DTO representing value limit rule metadata,4,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,ValueType,string,,0,0
+documentmanagementquery_v1,documentmanagement,query,1.0,https://api.fenergox.com/documentmanagementquery/swagger/1.0/swagger.json,VersionStatus,string,,0,0

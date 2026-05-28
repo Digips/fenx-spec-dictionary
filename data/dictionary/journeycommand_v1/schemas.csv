@@ -1,0 +1,117 @@
+source_id,api_name,api_mode,api_version,source_url,schema_name,type,description,property_count,required_count
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,AbortJourneyDto,object,DTO to abort journey,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,AbortJourneyDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,AbortMultipleJourneysDto,object,DTO representing aborting journeys in bulk,3,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,AbortMultipleJourneysDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,AccessLayerDto,object,DTO representing access layers attached,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ApproveAction,object,,3,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ApproveActionServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,Approver,object,,4,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ChannelTypeDto,string,,0,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CloneJourneyScheduleVersionDto,object,Request DTO representing clone journey Schedule data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CloneJourneyScheduleVersionDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CloneJourneyScheduleVersionResponse,object,Cloned journey schedule response data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CloneJourneyScheduleVersionResponseServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CloneJourneySchemaVersionDto,object,Request DTO representing clone journey schema data,4,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CloneJourneySchemaVersionDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CloneJourneySchemaVersionResponse,object,Cloned journey schema response data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CloneJourneySchemaVersionResponseServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ConditionDefinitionDto,object,Represents condition,9,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ConditionDto,object,Represents condition root,5,3
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ConditionalValueDto,object,,8,2
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CreateJourneyInstanceDto,object,Request DTO representing journey instance to create,5,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CreateJourneyInstanceDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CreateJourneyLaunchControlsDto,object,Request DTO representing journey launch controls data,4,2
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CreateJourneyLaunchControlsDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CreateJourneyLaunchControlsResponseDto,object,,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CreateJourneyLaunchControlsResponseDtoServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CreateJourneySchemaDraftFromVersionResponse,object,,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CreateJourneySchemaDraftFromVersionResponseServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CustomStatusUpdateDto,object,Request DTO representing journey custom status update data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,CustomStatusUpdateDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,Decision,string,,0,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,EntityResolutionSearchQueryFieldDto,object,,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ExternalDataConfigurationDto,object,,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ExternalDataConfigurationsDto,object,,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ExternalDataProviderConfigurationDto,object,,4,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyInstanceCreatedDto,object,Response DTO representing created journey instance,4,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyInstanceCreatedDtoServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyJurisdictionDto,object,Request DTO representing jurisdiction journey should operate on,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyLaunchedDto,object,DTO representing launched journey business process,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyLaunchedDtoServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyMilestoneDto,object,DTO representing Journey Milestone,5,3
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyScheduleDateDto,object,Response DTO representing Journey Schedule date data,7,5
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyScheduleDateDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyScheduleDateDtoServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyScheduleDto,object,DTO representing journey Schedule data,10,3
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyScheduleDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyScheduleDtoServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyScheduleVersionSignResponse,object,Sign journey Schedule response contains the new version status,3,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneyScheduleVersionSignResponseServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneySchemaDto,object,DTO representing journey schema data,17,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneySchemaDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneySchemaDtoServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneySchemaUpdatedDto,object,Response DTO representing updated journey schema,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneySchemaUpdatedDtoServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneySchemaVersionSignResponse,object,Sign journey schema response contains the new version status,3,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,JourneySchemaVersionSignResponseServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,LaunchJourneyDto,object,Response DTO representing launch journey instance(s),4,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,LaunchJourneyDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ObjectServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,PauseJourneyInstanceDto,object,,2,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,PauseJourneyInstanceDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,PauseJourneyInstanceStageDto,object,,2,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,PauseJourneyInstanceStageDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,PauseJourneyInstanceTaskDto,object,,2,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,PauseJourneyInstanceTaskDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ProblemDetails,object,,5,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ProcessDto,object,DTO representing journey process,7,3
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignJourneyOwnerDto,object,DTO representing reassign journey owner,3,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignJourneyOwnerDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignMultipleTasksDto,object,DTO representing reassign tasks in bulk,1,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignMultipleTasksDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignReadOnlyTeamsDto,object,DTO representing reassign read only teams,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignReadOnlyTeamsDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignTaskDto,object,DTO representing reassign task,4,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignTaskDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReassignTaskInBulkDto,object,DTO representing an request of a task reassignment process,6,2
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReopenTaskCommandResponse,object,,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReopenTaskCommandResponseServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReopenedTaskDto,object,,3,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ResetTaskDto,object,DTO representing reset task,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ResetTaskDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReviewOutcomeDto,object,Request DTO representing review outcome task data to save,2,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ReviewOutcomeDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ServiceLevelAgreementDto,object,Request DTO representing Service Level Agreement of a Journey/Stage/Task,3,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ServiceLevelAgreementLightDto,object,Request DTO representing Service Level Agreement of a Journey/Stage/Task,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ServiceLevelAgreementLightDtoConditionalValueDto,object,,7,2
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ServiceResponseMessage,object,The message associated to the service response,3,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,Signee,object,Defines a version Signee,4,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,StageDto,object,DTO representing journey stage,12,3
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,StringConditionDefinitionDtoIConditionalValue,object,,4,2
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,StringServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,TaskDto,object,DTO representing journey task,200,3
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,TaskReassignOutcomeDto,object,DTO representing an outcome of a task reassignment process,4,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,TaskReassignOutcomeDtoListServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,TeamAssignmentDto,object,DTO representing task's team assignment metadata,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,TeamAssignmentDtoConditionDefinitionDtoIConditionalValue,object,,4,2
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,TeamAssignmentDtoConditionalValueDto,object,,7,2
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyConfigurationRequestDto,object,Request DTO representing configuration data to update,7,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyConfigurationRequestDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyInstanceAccessLayersDto,object,Request DTO representing the journey instance access layers data,2,1
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyInstanceAccessLayersDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyLaunchControlsDto,object,Request DTO representing journey launch controls data,3,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyLaunchControlsDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyLaunchControlsResponseDto,object,,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyLaunchControlsResponseDtoServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyScheduleVersionDto,object,Request DTO representing set of properties which define a new version of journey Schedule,9,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneyScheduleVersionDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneySchemaVersionDto,object,Request DTO representing set of properties which define a new version of journey schema,15,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneySchemaVersionDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneySlaConfigurationDto,object,Request DTO representing Journey SLA configuration to update,2,2
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,UpdateJourneySlaConfigurationDtoServiceRequest,object,Service request data,1,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ValidationErrorModel,object,Represents the details of validation error,4,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ValidationErrorModelListServiceResponse,object,Service response data,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,ValueField,object,,2,0
+journeycommand_v1,journey,command,1.0,https://api.fenergox.com/journeycommand/swagger/1.0/swagger.json,VersionStatus,string,,0,0

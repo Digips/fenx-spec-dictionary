@@ -7,6 +7,18 @@ from .refs import dereference, resolve_ref
 HTTP_METHODS = {"get", "post", "put", "patch", "delete", "head", "options", "trace"}
 
 
+def _source_columns(source: dict[str, str] | None) -> dict[str, str]:
+    if source is None:
+        source = {}
+    return {
+        "source_id": _as_text(source.get("source_id")),
+        "api_name": _as_text(source.get("api_name")),
+        "api_mode": _as_text(source.get("api_mode")),
+        "api_version": _as_text(source.get("api_version")),
+        "source_url": _as_text(source.get("source_url")),
+    }
+
+
 def _as_text(value: object) -> str:
     return "" if value is None else str(value)
 
@@ -74,12 +86,14 @@ def _resolve_schema(spec: dict, schema: dict, active_refs: set[str] | None = Non
         return schema
 
 
-def extract_endpoints(spec: dict) -> list[dict]:
+def extract_endpoints(spec: dict, source: dict[str, str] | None = None) -> list[dict]:
     rows: list[dict] = []
+    source_data = _source_columns(source)
 
     for path, method, operation, _path_parameters in _iter_operations(spec):
         rows.append(
             {
+                **source_data,
                 "path": path,
                 "method": method,
                 "operation_id": _as_text(operation.get("operationId")),
@@ -93,8 +107,9 @@ def extract_endpoints(spec: dict) -> list[dict]:
     return rows
 
 
-def extract_parameters(spec: dict) -> list[dict]:
+def extract_parameters(spec: dict, source: dict[str, str] | None = None) -> list[dict]:
     rows: list[dict] = []
+    source_data = _source_columns(source)
 
     for path, method, operation, path_parameters in _iter_operations(spec):
         operation_id = _as_text(operation.get("operationId"))
@@ -116,6 +131,7 @@ def extract_parameters(spec: dict) -> list[dict]:
 
             rows.append(
                 {
+                    **source_data,
                     "path": path,
                     "method": method,
                     "operation_id": operation_id,
@@ -132,8 +148,9 @@ def extract_parameters(spec: dict) -> list[dict]:
     return rows
 
 
-def extract_responses(spec: dict) -> list[dict]:
+def extract_responses(spec: dict, source: dict[str, str] | None = None) -> list[dict]:
     rows: list[dict] = []
+    source_data = _source_columns(source)
 
     for path, method, operation, _path_parameters in _iter_operations(spec):
         operation_id = _as_text(operation.get("operationId"))
@@ -152,6 +169,7 @@ def extract_responses(spec: dict) -> list[dict]:
             if not isinstance(content, dict) or not content:
                 rows.append(
                     {
+                        **source_data,
                         "path": path,
                         "method": method,
                         "operation_id": operation_id,
@@ -178,6 +196,7 @@ def extract_responses(spec: dict) -> list[dict]:
 
                 rows.append(
                     {
+                        **source_data,
                         "path": path,
                         "method": method,
                         "operation_id": operation_id,
@@ -192,8 +211,9 @@ def extract_responses(spec: dict) -> list[dict]:
     return rows
 
 
-def extract_schemas(spec: dict) -> list[dict]:
+def extract_schemas(spec: dict, source: dict[str, str] | None = None) -> list[dict]:
     rows: list[dict] = []
+    source_data = _source_columns(source)
 
     schemas = spec.get("components", {}).get("schemas", {})
     if not isinstance(schemas, dict):
@@ -209,6 +229,7 @@ def extract_schemas(spec: dict) -> list[dict]:
 
         rows.append(
             {
+                **source_data,
                 "schema_name": _as_text(schema_name),
                 "type": _as_text(resolved_schema.get("type")),
                 "description": _as_text(resolved_schema.get("description")),
@@ -220,8 +241,9 @@ def extract_schemas(spec: dict) -> list[dict]:
     return rows
 
 
-def extract_schema_properties(spec: dict) -> list[dict]:
+def extract_schema_properties(spec: dict, source: dict[str, str] | None = None) -> list[dict]:
     rows: list[dict] = []
+    source_data = _source_columns(source)
 
     schemas = spec.get("components", {}).get("schemas", {})
     if not isinstance(schemas, dict):
@@ -235,6 +257,7 @@ def extract_schema_properties(spec: dict) -> list[dict]:
         root_pointer = f"#/components/schemas/{schema_name}"
         _walk_schema_properties(
             spec=spec,
+            source_data=source_data,
             schema_name=str(schema_name),
             schema=resolved_root,
             path_prefix="",
@@ -251,6 +274,7 @@ def extract_schema_properties(spec: dict) -> list[dict]:
 
 def _walk_schema_properties(
     spec: dict,
+    source_data: dict[str, str],
     schema_name: str,
     schema: dict,
     path_prefix: str,
@@ -273,6 +297,7 @@ def _walk_schema_properties(
 
         _append_property_row(
             spec=spec,
+            source_data=source_data,
             schema_name=schema_name,
             property_path=property_path,
             json_pointer=json_pointer,
@@ -298,6 +323,7 @@ def _walk_schema_properties(
         if isinstance(next_schema.get("properties"), dict):
             _walk_schema_properties(
                 spec=spec,
+                source_data=source_data,
                 schema_name=schema_name,
                 schema=next_schema,
                 path_prefix=property_path,
@@ -325,6 +351,7 @@ def _walk_schema_properties(
             if isinstance(item_schema.get("properties"), dict):
                 _walk_schema_properties(
                     spec=spec,
+                    source_data=source_data,
                     schema_name=schema_name,
                     schema=item_schema,
                     path_prefix=f"{property_path}[]",
@@ -337,6 +364,7 @@ def _walk_schema_properties(
 
 def _append_property_row(
     spec: dict,
+    source_data: dict[str, str],
     schema_name: str,
     property_path: str,
     json_pointer: str,
@@ -381,6 +409,7 @@ def _append_property_row(
 
     rows.append(
         {
+            **source_data,
             "schema_name": schema_name,
             "property_path": property_path,
             "payload_json_path": payload_json_path,

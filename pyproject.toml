@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fenx-spec-dictionary"
+version = "0.1.0"
+description = "Pipeline to wrangle Fen-X API specifications into a dictionary of elements for Excel-based configuration management"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "pyyaml>=6.0",
+    "openpyxl>=3.1",
+    "click>=8.1",
+    "requests>=2.31",
+    "jsonschema>=4.21",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "pytest-cov>=4.1",
+]
+
+[project.scripts]
+fenx-dict = "fenx_spec_dictionary.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

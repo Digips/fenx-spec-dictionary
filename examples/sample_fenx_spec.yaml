@@ -1,0 +1,304 @@
+openapi: "3.0.3"
+info:
+  title: Fen-X Entity API (sample)
+  version: "1.0.0"
+  description: >
+    Sample Fen-X API specification used for testing and demonstration
+    purposes.  This file does NOT represent the real Fenergo API.
+
+paths:
+  /v1/entities:
+    get:
+      operationId: listEntities
+      summary: List entities
+      parameters:
+        - name: pageSize
+          in: query
+          required: false
+          description: Maximum number of entities to return.
+          schema:
+            type: integer
+            format: int32
+            example: 25
+        - name: pageToken
+          in: query
+          required: false
+          description: Pagination token from a previous response.
+          schema:
+            type: string
+        - name: entityType
+          in: query
+          required: false
+          description: Filter by entity type.
+          schema:
+            type: string
+            enum:
+              - Individual
+              - Organisation
+              - TrustOrFund
+      responses:
+        "200":
+          description: Successful response
+    post:
+      operationId: createEntity
+      summary: Create an entity
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateEntityRequest"
+      responses:
+        "201":
+          description: Entity created
+
+  /v1/entities/{entityId}:
+    get:
+      operationId: getEntity
+      summary: Get an entity by ID
+      parameters:
+        - name: entityId
+          in: path
+          required: true
+          description: Unique identifier of the entity.
+          schema:
+            type: string
+            format: uuid
+      responses:
+        "200":
+          description: Successful response
+    patch:
+      operationId: updateEntity
+      summary: Update an entity
+      parameters:
+        - name: entityId
+          in: path
+          required: true
+          description: Unique identifier of the entity.
+          schema:
+            type: string
+            format: uuid
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UpdateEntityRequest"
+      responses:
+        "200":
+          description: Entity updated
+
+  /v1/journeys:
+    post:
+      operationId: createJourney
+      summary: Create a new KYC/AML journey
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/CreateJourneyRequest"
+      responses:
+        "201":
+          description: Journey created
+
+components:
+  schemas:
+    EntityType:
+      type: string
+      description: Classification of a legal entity.
+      enum:
+        - Individual
+        - Organisation
+        - TrustOrFund
+
+    Address:
+      type: object
+      description: A physical or registered address.
+      required:
+        - addressLine1
+        - city
+        - country
+      properties:
+        addressLine1:
+          type: string
+          description: First line of the address.
+          example: "123 Main Street"
+        addressLine2:
+          type: string
+          description: Second line of the address (optional).
+        city:
+          type: string
+          description: City or town.
+          example: "Dublin"
+        state:
+          type: string
+          description: State, province, or county.
+        postalCode:
+          type: string
+          description: Postal or ZIP code.
+          example: "D02 AB12"
+        country:
+          type: string
+          description: ISO 3166-1 alpha-2 country code.
+          example: "IE"
+
+    IndividualDetails:
+      type: object
+      description: Personal details for an individual entity.
+      required:
+        - firstName
+        - lastName
+        - dateOfBirth
+      properties:
+        firstName:
+          type: string
+          description: Legal first name.
+          example: "Jane"
+        middleName:
+          type: string
+          description: Middle name(s) if applicable.
+        lastName:
+          type: string
+          description: Legal surname.
+          example: "Smith"
+        dateOfBirth:
+          type: string
+          format: date
+          description: Date of birth in ISO 8601 format (YYYY-MM-DD).
+          example: "1985-06-15"
+        nationality:
+          type: string
+          description: ISO 3166-1 alpha-2 nationality code.
+          example: "IE"
+        taxIdentificationNumber:
+          type: string
+          description: National tax identification number.
+
+    OrganisationDetails:
+      type: object
+      description: Details for an organisation entity.
+      required:
+        - legalName
+        - incorporationCountry
+      properties:
+        legalName:
+          type: string
+          description: Registered legal name of the organisation.
+          example: "Acme Corporation Ltd"
+        tradingName:
+          type: string
+          description: Trading name if different from legal name.
+        registrationNumber:
+          type: string
+          description: Company registration or incorporation number.
+          example: "IE123456"
+        incorporationCountry:
+          type: string
+          description: Country of incorporation (ISO 3166-1 alpha-2).
+          example: "IE"
+        incorporationDate:
+          type: string
+          format: date
+          description: Date of incorporation.
+        legalEntityIdentifier:
+          type: string
+          description: LEI code if available.
+        businessType:
+          type: string
+          description: Primary business classification.
+          enum:
+            - PrivateLimitedCompany
+            - PublicLimitedCompany
+            - Partnership
+            - SoleTrader
+            - Charity
+            - GovernmentBody
+            - Other
+
+    CreateEntityRequest:
+      type: object
+      description: Request payload to create a new entity.
+      required:
+        - entityType
+      properties:
+        entityType:
+          $ref: "#/components/schemas/EntityType"
+        individual:
+          $ref: "#/components/schemas/IndividualDetails"
+        organisation:
+          $ref: "#/components/schemas/OrganisationDetails"
+        registeredAddress:
+          $ref: "#/components/schemas/Address"
+        riskClassification:
+          type: string
+          description: Initial risk classification assigned at onboarding.
+          enum:
+            - Low
+            - Medium
+            - High
+            - Unclassified
+        tags:
+          type: array
+          description: Arbitrary tags for categorisation.
+          items:
+            type: string
+        externalReference:
+          type: string
+          description: Client system reference for cross-system correlation.
+          example: "CRM-000123"
+
+    UpdateEntityRequest:
+      type: object
+      description: Request payload to update an existing entity.
+      properties:
+        registeredAddress:
+          $ref: "#/components/schemas/Address"
+        riskClassification:
+          type: string
+          description: Updated risk classification.
+          enum:
+            - Low
+            - Medium
+            - High
+            - Unclassified
+        tags:
+          type: array
+          description: Updated tags.
+          items:
+            type: string
+
+    CreateJourneyRequest:
+      type: object
+      description: Request payload to initiate a new KYC/AML journey.
+      required:
+        - entityId
+        - journeyType
+      properties:
+        entityId:
+          type: string
+          format: uuid
+          description: Entity to associate the journey with.
+        journeyType:
+          type: string
+          description: Type of compliance journey to initiate.
+          enum:
+            - KYCOnboarding
+            - PeriodicReview
+            - RiskReassessment
+            - OffBoarding
+        assignedTeam:
+          type: string
+          description: Team responsible for completing the journey.
+        dueDate:
+          type: string
+          format: date
+          description: Target completion date.
+        priority:
+          type: string
+          description: Priority level for queue management.
+          enum:
+            - Low
+            - Normal
+            - High
+            - Critical
